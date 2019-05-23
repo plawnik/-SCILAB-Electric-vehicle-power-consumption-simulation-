@@ -20,8 +20,6 @@ And other random parameters (but possible)
 ```
 
 ## Some plots,diagrams,scopes etc (with energy recuperation)
-Power in time
-![p1](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/powerintime.bmp "Power in time")
 
 Speed in time
 ![p2](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/speedintime.bmp "Speed in time")

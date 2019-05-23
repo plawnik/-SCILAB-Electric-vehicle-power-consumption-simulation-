@@ -21,8 +21,7 @@ And other random parameters (but possible)
 
 ## Some plots,diagrams,scopes etc
 
-![p1](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/blob/master/electric%20skateboard/powerintime.bmp)
-
+![p1](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/powerintime.bmp)
 
 
 

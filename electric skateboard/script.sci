@@ -28,7 +28,6 @@ clear;
 clc;
 xdel(winsid());
 
-
 // dane pojazdu i otoczenia
 
 debug = 0;
@@ -49,7 +48,7 @@ W_vect={};
 
 //dzielenie odcinków na poszczegolne fazy ruchu, 
 for i = 1:seg_nr 
-    
+
     t_acc=data_t.Vm/data_t.a_acc;// czas osciagniecia v_max
 
     t_brake=data_t.Vm/data_t.a_brake;// czas wyhamwoania
@@ -75,8 +74,6 @@ for i = 1:seg_nr
     end
 end
 //---------------------------------------------
-
-
 
 
 // liczymy szukane wektory t,p,v
@@ -129,8 +126,6 @@ for i=1:seg_nr//
     clear _V;clear _temp;clear _P;
     // ------------------------------------------------------------------------
 
-
-
     // ----------------------------------faza hamowania------------------------
     _V=linspace(data_t.Vm,0,precision_step);// wektor predksoci chwilowej
     Fb = -data_t.a_brake*data_t.m*data_t.fm;// sila bezwladnosci 
@@ -160,14 +155,6 @@ for i=1:seg_nr//
 end
 
 
-
-
-
-
-
-
-
-
 // liczymy zuzycie energii na poszczegolnych odcinkach
 
 for i=1:seg_nr
@@ -186,17 +173,13 @@ for i=1:seg_nr
         disp((i-1)*30+30);
     end
     
-    
-    
     disp('Zuzycie energii na odcinku nr: '+string(i));
     W_vect(i,1)=inttrap(t_vect((i-1)*30+1:i*30),P_vect((i-1)*30+1:i*30))/3600;
     W_vect(i,2)=inttrap(t_vect(((i-1)*30+11):((i-1)*30+20)),P_vect(((i-1)*30+11):((i-1)*30+20)))/3600;
     W_vect(i,3)=inttrap(t_vect(((i-1)*30+21):((i-1)*30+30)),P_vect(((i-1)*30+21):((i-1)*30+30)))/3600;
     disp('I faza '+string(W_vect(i,1))+'kWh  II faza '+string(W_vect(i,2))+'kWh  III faza '+string(W_vect(i,3))+' kWh');
-   
-    
-    
 end
+
 W_summary=inttrap(t_vect,P_vect)/3600;
 if debug>0 then
     disp(W_vect);
@@ -210,15 +193,12 @@ if debug <1 then
     xtitle('wykres P = f(t)','czas, s','moc, kW')
     legend('Moc');
 
-
     scf();
     subplot (1,1,1);
     plot2d(t_vect,v_vect);
     xtitle('wykresP v = f(t)','czas, s','predkosc, m/s')
     legend('Predkosc');
 end
-
-
 
 
 function w=e(soc)// dla liion

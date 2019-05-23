@@ -7,7 +7,7 @@ Simulation for the construction presented here:
 https://www.elektroda.pl/rtvforum/topic3278605.html
 
 Works in scilab 5.x.x
-Thats
+
 ## Simulation parameters
 ```
 Total weight of the pilot with the vehicle = 100kg

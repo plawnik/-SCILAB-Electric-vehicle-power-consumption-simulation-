@@ -33,7 +33,7 @@ Current in time
 Battery voltage in time
 ![p3](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/batteryvoltageintimewithrecuperation.bmp "Voltage in time")
 
-SoC in time (State of Charge) in time
+SoC in time (state of battery charge)
 ![p4](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/socintime.bmp "SOC in time")
 
 

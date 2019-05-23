@@ -19,9 +19,22 @@ Battery = 10S10P Liion 18650 27Ah (~5kg of weight)
 And other random parameters (but possible)
 ```
 
-## Some plots,diagrams,scopes etc
-
+## Some plots,diagrams,scopes etc (with energy recuperation)
+Power in time
 ![p1](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/powerintime.bmp "Power in time")
+
+Speed in time
+![p2](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/speedintime.bmp "Speed in time")
+
+Current in time 
+![p5](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/currentintimewithrecuperation.bmp "Current in time")
+
+
+Battery voltage in time
+![p3](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/batteryvoltageintimewithrecuperation.bmp "Voltage in time")
+
+SoC in time (State of Charge) in time
+![p4](https://raw.githubusercontent.com/miszczo/-SCILAB-Electric-vehicle-power-consumption-simulation-/master/electric%20skateboard/socintime.bmp "SOC in time")
 
 
 
